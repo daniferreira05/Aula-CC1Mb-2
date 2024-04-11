@@ -1,0 +1,21 @@
+header { 
+    
+   
+    width: auto;
+    height: 145px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+}
+
+body {
+    position: absolute;
+    bottom: 100;
+    
+    background-color:  rgb(203, 193, 235); }
+
+    div img {border-radius: 20%;}
+
+
+
+
