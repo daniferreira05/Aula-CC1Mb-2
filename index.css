@@ -1,21 +1,59 @@
-header { 
-    
+body {
+    background-color: #b34aaa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
    
-    width: auto;
-    height: 145px;
-    margin: auto;
-    display: flex;
-    position: absolute;
 }
 
-body {
-    position: absolute;
-    bottom: 100;
+
     
-    background-color:  rgb(203, 193, 235); }
+header {
+    background-color: #c95ec0;
+    color: #111010;
+    padding: 15px;
+    text-align: justify;
+    display:flow-root;
+   
+   
+}
 
-    div img {border-radius: 20%;}
+.about,
+.portfolio {
+    padding: 20px;
+}
 
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    height: 50px;
+    display:flex;
+   
+    
+}
 
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
 
+.footer .social a {
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 25px;
+    display: inline-flex;
+    text-align: center;
 
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+
+}
