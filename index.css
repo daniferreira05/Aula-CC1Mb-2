@@ -4,6 +4,12 @@ body {
 
 }
 
+script{
+
+    width: 100%;
+    height: 350px;
+    background-color: rgb(193, 156, 228);
+}
 section {
     width: 100%;
     height: 350px;
@@ -32,24 +38,4 @@ input[ type= "submit"]{
     background-color: rgb(102, 102, 216);
 }
 
-.tabela{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-     justify-content:center;
 
-
-}
-s-table{
-    border-bottom: 1px solid rgb(92, 33, 92);
-    border-color: black;
-    border-radius: 5px;
-    
-}
-footer{
-    background-color: black;
-}
-.roda{
-    background-color: white;
-}
