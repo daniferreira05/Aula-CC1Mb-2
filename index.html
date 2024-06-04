@@ -1,54 +1,47 @@
 <!DOCTYPE html>
-<html lang="portugues">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Calculando Notas</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
 </head>
 
 <body>
-    <h1> Formulário Danielle</h1>
+    <h1>Formulário</h1>
     <section>
-
-        <label for="nome">Nome</label>
-        <input type="nome" name="nome 
-         id = " email placeholder="Digite seu nome">
-
-        <label for="email">Email</label>
-        <input type="email" name="email 
-         id = " email placeholder="Digite seu email">
-
-        <label for="mensagem">Mensagem</label>
-        <input type="mensagem" name="mensagem
-         id = " email placeholder="Digite sua mensagem">
-
-
-        <input type="submit">
-
+        <form action="#" onsubmit="enviar(event)">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <label for="nota">Nota do aluno</label>
+            <input type="number" placeholder="Nota do aluno" name="nota" min="0" max="10" required>
+            <input type="submit">
+        </form>
 
     </section>
 
     <h2>Tabela</h2>
-    <script>
+    <section>
+        <table border="2">
+            <thead>
+                <th>Email</th>
+                <th>Nome</th>
+                <th>Nota</th>
+                <th>Condição</th>
+            </thead>
 
-        function eviar(event) {
-            event.preventDafault();
-            alert(Ola, pessoal)
-        } 
-    </script>
+            <tbody>
+
+            </tbody>
+        </table>
     </section>
 
-    <footer>
-        <div class="roda">
-            <p>&copy; 2024 Danielle Gonçalves Ferreira </p>
-        </div>
-
-    </footer>
 
 
+    <script src="enviar.js"></script>
 </body>
 
 </html>

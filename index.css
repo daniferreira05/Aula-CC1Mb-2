@@ -1,41 +1,53 @@
-body {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+    padding: 0;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-script{
-
-    width: 100%;
-    height: 350px;
-    background-color: rgb(193, 156, 228);
-}
 section {
-    width: 100%;
-    height: 350px;
+    width: 100vw;
+    height: 300px;
     background-color: rgb(193, 156, 228);
-    display:inline-flex;
-    flex-direction: column;
+    display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: center;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;  
+}
+
+
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
    
-  
 }
 
 label{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-
+    height: 15px;
+    text-align: center;
+    
 }
 
 input{
-    width: 50%;
-    height: 30px;
-    margin: 4px;
-    border-radius: 10px;
+    height: 35px;
+    border-radius: 15px;
+ 
+    
 }
-input[ type= "submit"]{
-    background-color: rgb(102, 102, 216);
+
+input[type = "submit" ]{
+   width: 25%;
+    height: 20px;
+    border-radius: 5px;
 }
+
 
 
